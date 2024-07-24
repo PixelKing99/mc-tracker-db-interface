@@ -5,7 +5,7 @@ const PlayerIndex = require("./models/PlayerIndex.js");
 const PlayerChange = require("./models/PlayerChange.js");
 const JoinedServersIndex = require("./models/JoinedServersIndex.js");
 
-export default {
+module.exports = {
     Server,
     Date,
     Time,

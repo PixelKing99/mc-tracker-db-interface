@@ -1,4 +1,4 @@
-const db = require("../config/db");
+const db = require("../db");
 
 class Server {
     static async save(serverName, serverIp, serverPort, pingInterval) {
