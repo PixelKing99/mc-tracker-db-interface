@@ -61,7 +61,7 @@ class Day {
 
     static findByServerDateIdFull(serverDateId) {
         // blob of text lol
-        const sql = `select gathered_times.server_date_id,
+        const sql = `select
         format,
         gather_time, 
         gathered_times.server_date_time_id,
@@ -76,7 +76,7 @@ class Day {
     }
 
     static findPlayerByServerDateIdFull(serverDateId, playerId) {
-        const sql = `select gathered_times.server_date_id,
+        const sql = `select
         format,
         gather_time, 
         gathered_times.server_date_time_id,
